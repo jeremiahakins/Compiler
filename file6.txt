@@ -1,0 +1,54 @@
+void main(void) {
+	int x;
+	int y;
+	int z;
+	while(x + y[3] - 2 > 5) {
+	x = y[5] + x * 5;
+	while(x != y) {
+	z = x;
+	}
+	}
+	if(z + y[2] - 1 <= 5) {
+	y = z / 4 / y;
+	} else {
+	if(z + y[2] - 1 <= 5) {
+	y = z / 4 / y;
+	} else {
+	z = x;
+	}
+	z = x;
+	}
+}
+
+int method(int h) {
+	int x;
+	int y;
+	int z;
+	while(x != y) {
+	z = x;
+	}
+return 5;
+}
+
+
+
+
+
+
+/*void method(int x, int y[]) {
+
+}
+
+void methodTwo(int h) {
+
+}
+
+void main(void)
+{
+ 	int x;
+	int y;
+	int j;
+	int k[10];
+	
+	x = method(x + z, j * y - k, i) * j[1] / (x + z * y) - i + j + k[1 + 1] / x * y * z;
+}*/

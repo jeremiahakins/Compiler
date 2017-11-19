@@ -1,0 +1,18 @@
+/* gd  _t10 */
+int main[5];
+
+/* b*/
+void main(void)
+{
+while (true) {
+ that = 10;
+}
+
+
+}
+
+//extra
+
+
+/* b  */
+int main(int

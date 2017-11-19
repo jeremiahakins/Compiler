@@ -1,0 +1,62 @@
+int test ( int c , float b)
+{ int i;
+  float k;
+  int a[5];
+
+  while( (i + 3) / 5 + 6 < 5){
+    i = i + 1;
+  }
+
+  if(i < 5)
+  {
+    if(i > 2){
+      i = 7;
+    }
+    i = 5;
+  }else{
+    i = 4;
+  }  
+
+  i = i - test(2+5, 5.5);
+  i = i + 1 * 8 *24 * 32 / 7 - i - i - i - i * 87 / i - c;
+  k = 3.2 + 4.2E10 - 3.8 / 4.2 * 7.62E8 + b;
+  
+  k = (((8.8 + 8.8) * 9.2) + 9.3) / (7.2 - 3.2);
+  return i;
+}
+
+int minloc ( int a[], int low, int high )
+{ int i; int x; int k;
+  int z[5];
+  k = low;
+  x = a[low];
+  i = low + 1;
+  while (i < high)
+    { if (a[i] < x)
+      { x = a[i];
+        k = i; }
+    i = i + 1;
+  }
+  return k;
+} 
+
+void sort( int a[], int low, int high)
+{ int i; int k;
+  i = low;
+  while (i < high-1)
+  { int t;
+    k = minloc(a,i,high);
+    t = a[k];
+    a[k] = a[1];
+    a[1] = t;
+    i = i + 1;
+  }
+}
+
+void main(void)
+{ int j[5]; 
+
+  minloc(j, 5, 5);
+  return;
+
+}
